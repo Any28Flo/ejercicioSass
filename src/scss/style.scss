@@ -1,0 +1,32 @@
+@import "grid";
+
+$colorAmarillo: rgb(250, 174, 39);
+$colorBlanco: rgb(255, 255, 255);
+$altoContainer: 150px;
+$margenTop : 50px;
+$margen: 10px;
+$colorNegro : rgb(50, 50, 50);
+
+.bienvenida{
+  background-color: $colorAmarillo;
+
+  color: $colorBlanco;
+  h1{
+    text-align: left;
+  }
+}
+.actividad{
+
+
+
+    li{
+      margin-top: $margen;
+      margin-bottom: $margen;
+      background-color: $colorNegro;
+      color: $colorBlanco;
+      height: $margen*3;
+    }
+
+
+
+}
