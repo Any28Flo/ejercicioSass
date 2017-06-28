@@ -70,5 +70,18 @@
   background-color: #323232;
   color: white;
   height: 30px; }
+.actividad li:hover {
+  background-color: #faae27; }
+
+.ejercicio h1 {
+  text-align: left;
+  margin-bottom: 10px; }
+.ejercicio p {
+  text-align: justify; }
+.ejercicio h4 {
+  text-align: left; }
+.ejercicio ol#alumnas li {
+  text-align: left;
+  background-color: pink; }
 
 /*# sourceMappingURL=style.css.map */

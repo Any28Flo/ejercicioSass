@@ -16,9 +16,6 @@ $colorNegro : rgb(50, 50, 50);
   }
 }
 .actividad{
-
-
-
     li{
       margin-top: $margen;
       margin-bottom: $margen;
@@ -26,7 +23,26 @@ $colorNegro : rgb(50, 50, 50);
       color: $colorBlanco;
       height: $margen*3;
     }
+    li:hover{
+      background-color: $colorAmarillo;
+    }
+}
+.ejercicio{
+  h1{
+    text-align: left;
+    margin-bottom: $margen;
+  }
+  p{
+    text-align: justify;
+  }
+  h4{
+    text-align: left;
+  }
+  ol#alumnas{
+    li{
+      text-align: left;
+      background-color: pink;
+    }
 
-
-
+  }
 }
